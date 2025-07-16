@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Derecho Interactiva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Derecho</h1>
+  
+  <div class="grid">
+    <!-- Primer semestre -->
+    <div class="semestre">
+      <h2>1° Semestre</h2>
+      <div class="ramo" data-id="fund_pub" data-prereq="">Fund. del Derecho Público</div>
+      <div class="ramo" data-id="fund_priv" data-prereq="">Fund. del Derecho Privado</div>
+      <div class="ramo" data-id="socio" data-prereq="">Sociología Jurídica</div>
+      <div class="ramo" data-id="lenguaje" data-prereq="">Lenguaje del Derecho</div>
+      <div class="ramo" data-id="historia" data-prereq="">Historia Ideas Jurídicas</div>
+      <div class="ramo" data-id="taller" data-prereq="">Taller de Expresión Oral</div>
+    </div>
+
+    <!-- Segundo semestre -->
+    <div class="semestre">
+      <h2>2° Semestre</h2>
+      <div class="ramo" data-id="teoria" data-prereq="">Teoría del Sistema Jurídico</div>
+      <div class="ramo" data-id="eco" data-prereq="">Derecho y Economía</div>
+      <div class="ramo" data-id="crimino" data-prereq="">Criminología</div>
+      <div class="ramo" data-id="raz" data-prereq="">Razonamiento Jurídico</div>
+      <div class="ramo" data-id="trad" data-prereq="">Tradiciones Jurídicas Comp.</div>
+      <div class="ramo" data-id="metod" data-prereq="">Metodología Investig. Jurídica</div>
+    </div>
+
+    <!-- Tercer semestre -->
+    <div class="semestre">
+      <h2>3° Semestre</h2>
+      <div class="ramo" data-id="priv1" data-prereq="fund_priv">Privado I</div>
+      <div class="ramo" data-id="penal1" data-prereq="crimino">Penal I</div>
+      <div class="ramo" data-id="proc1" data-prereq="teoria">Procesal I</div>
+      <div class="ramo" data-id="const1" data-prereq="fund_pub">Constitucional I</div>
+      <div class="ramo" data-id="validez" data-prereq="">Validez Espacio/Temporal</div>
+      <div class="ramo" data-id="ingles1" data-prereq="">Inglés I</div>
+    </div>
+
+    <!-- Continúa con los demás semestres de la misma forma... -->
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
